@@ -39,21 +39,20 @@ export default function Home() {
   };
 
   return (
-    <main className="relative flex h-screen overflow-hidden">
+    <section className="relative flex min-h-40 overflow-hidden mt-5">
       <div className="absolute ">
         <div ref={slider} className="relative whitespace-nowrap">
-          <p ref={firstText} className="relative m-0 text-black text-[9rem] pr-3">
+          <p ref={firstText} className="relative m-0 text-primary text-6xl md:text-[9rem] pr-3">
             Zona Vip BarberShop Estilo y Cuidado Para Ti -
           </p>
           <p
             ref={secondText}
-            className="absolute m-0 text-black text-[9rem] pr-3 left-full top-0"
+            className="absolute m-0 text-primary text-6xl md:text-[9rem] pr-3 left-full top-0"
           >
             Zona Vip BarberShop Estilo y Cuidado Para Ti -
           </p>
         </div>
       </div>
-      <div className="h-[400vh]"></div>
-    </main>
+    </section>
   );
 }

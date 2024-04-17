@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import MovingText from "./components/MovingText";
+import RotateImage from "./components/RotateImage";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <MovingText />
+      <RotateImage />
     </>
   );
 }
