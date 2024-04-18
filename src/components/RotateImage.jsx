@@ -1,6 +1,5 @@
 import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
-import logo from "../assets/react.svg";
 
 const RotateImage = ({ image }) => {
   const imageRef = useRef(null);
@@ -8,14 +7,22 @@ const RotateImage = ({ image }) => {
   useEffect(() => {
     gsap.to(imageRef.current, {
       rotation: 360,
-      duration: 5,
+      transformOrigin: "center center",
+      duration: 10,
       repeat: -1,
-      ease: "linear",
+      ease: "none",
     });
   }, []);
 
   return (
-    <img ref={imageRef} src={image} alt="description" className="w-80" />
+    <div className="overflow-hidden">
+      <img
+        ref={imageRef}
+        src={image}
+        alt="description"
+        className="w-60 h-60"
+      />
+    </div>
   );
 };
 
