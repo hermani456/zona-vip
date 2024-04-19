@@ -4,7 +4,7 @@ import logo from "../assets/logos/mainlogo.svg";
 const Hero = () => {
   return (
     <section id="home" className="bg-background">
-      <div className="max-w-screen-xl mx-auto h-screen p-5">
+      <div className="max-w-screen-xl mx-auto min-h-[90vh] p-5 my-auto flex items-center">
         <div className="flex justify-center items-center h-full gap-5 flex-wrap flex-col md:flex-row">
           <div className="flex-1 mx-auto">
             <h1 className="text-5xl md:text-8xl mb-4 bg-gradient-to-tr from-primary to-secondary font-bebasNeue inline text-transparent bg-clip-text">
