@@ -3,11 +3,11 @@ import logo from "../assets/logos/mainlogo.svg";
 
 const Hero = () => {
   return (
-    <section className="bg-accent">
+    <section id="home" className="bg-accent">
       <div className="max-w-screen-xl mx-auto h-screen p-5">
         <div className="flex justify-center items-center h-full gap-5 flex-wrap">
           <div className="flex-1 mx-auto">
-            <h1 className="text-5xl md:text-8xl mb-4 text-tercero">
+            <h1 className="text-5xl md:text-8xl mb-4 text-tercero font-bebasNeue">
               Zona Vip Barbershop
             </h1>
             <p className="text-primary text-lg md:text-xl">

@@ -39,7 +39,7 @@ export default function Home() {
   };
 
   return (
-    <section className="relative flex min-h-20 md:min-h-40 overflow-hidden mt-5">
+    <section className="relative flex min-h-20 md:min-h-40 overflow-hidden my-5">
       <div className="absolute ">
         <div ref={slider} className="relative whitespace-nowrap">
           <p ref={firstText} className="relative m-0 text-primary text-6xl md:text-[9rem] pr-3">

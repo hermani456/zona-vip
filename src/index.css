@@ -16,7 +16,7 @@ html{
 }
 
 body{
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     line-height: 1.5;
 }
 
@@ -36,15 +36,16 @@ p{
 
 .grida{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
     place-content: center;
 }
 
 .card-shadow{
-    box-shadow: -1rem -1rem 0 0 rgba(187, 25, 25, 0.5)
+    /* use this color for shadow cc4e5e */
+    box-shadow: -1rem -1rem 0 0 rgb(210, 111, 123)
 }
 
 .card-shadow:nth-child(2n){
-    box-shadow: -1rem -1rem 0 0 rgba(55, 25, 187, 0.5)
+    box-shadow: -1rem -1rem 0 0 rgb(75, 78, 112)
 }

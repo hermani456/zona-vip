@@ -13,6 +13,10 @@ export default {
         "tercero": "#EF233C",
         "cuarto": "#D90429",
       },
+      fontFamily: {
+        robotoSlab: ["Roboto Slab", "serif"],
+        bebasNeue: ["Bebas Neue", "cursive"],
+      },
     },
   },
   plugins: [],

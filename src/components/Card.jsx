@@ -1,16 +1,14 @@
 import React from "react";
-import logo from "../assets/react.svg";
 
-const Card = () => {
+const Card = ({title, img, paragraph, price}) => {
   return (
-    <div className="grid justify-start gap-4 p-8 bg-white rounded-xl shadow-xl card-shadow">
-      <img src={logo} alt="" />
+    <div className="grid justify-start gap-4 p-8 bg-white rounded-xl shadow-xl card-shadow font-sans mx-auto">
+      <img src={img} alt="" className="w-12"/>
       <div>
-        <h2>hola</h2>
-        <p>chao</p>
+        <h2 className="text-2xl">{title}</h2>
+        <p>{paragraph}</p>
       </div>
-      <p>456</p>
-      <button>chao</button>
+      <p className="text-xl"><span className="text-lg font-bold">$</span>{price}</p>
     </div>
   );
 };
