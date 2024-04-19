@@ -7,11 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary": "#2B2D42",
-        "secondary": "#8D99AE",
-        "accent": "#EDF2F4",
-        "tercero": "#EF233C",
-        "cuarto": "#D90429",
+        "text": "#f1eee9",
+        "background": "#0f0a0f",
+        "primary": "#e69005",
+        "secondary": "#d82246",
+        "accent": "#ef253c",
       },
       fontFamily: {
         robotoSlab: ["Roboto Slab", "serif"],

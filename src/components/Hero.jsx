@@ -1,16 +1,17 @@
 import React from "react";
 import logo from "../assets/logos/mainlogo.svg";
+import Logo from "../svg-components/Logo"
 
 const Hero = () => {
   return (
-    <section id="home" className="bg-accent">
+    <section id="home" className="bg-background">
       <div className="max-w-screen-xl mx-auto h-screen p-5">
         <div className="flex justify-center items-center h-full gap-5 flex-wrap">
           <div className="flex-1 mx-auto">
-            <h1 className="text-5xl md:text-8xl mb-4 text-tercero font-bebasNeue">
+            <h1 className="text-5xl md:text-8xl mb-4 bg-gradient-to-tr from-primary to-secondary font-bebasNeue inline text-transparent bg-clip-text">
               Zona Vip Barbershop
             </h1>
-            <p className="text-primary text-lg md:text-xl">
+            <p className="text-text text-lg md:text-xl">
               donde el estilo y el cuidado personal alcanzan su máximo
               esplendor! Con profesionales expertos y un ambiente exclusivo, te
               garantizamos una experiencia única en cada visita. Descubre el

@@ -1,8 +1,8 @@
 import React from "react";
 
-const Card = ({title, img, paragraph, price}) => {
+const Card = ({title, img, paragraph, price, bgColor}) => {
   return (
-    <div className="grid justify-start gap-4 p-8 bg-white rounded-xl shadow-xl card-shadow font-sans mx-auto">
+    <div className={`text-text grid justify-start gap-4 p-8 rounded-xl shadow-xl card-shadow font-sans mx-auto ${bgColor}`}>
       <img src={img} alt="" className="w-12"/>
       <div>
         <h2 className="text-2xl">{title}</h2>

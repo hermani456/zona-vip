@@ -2,7 +2,7 @@ import logo from "../assets/logos/mainlogo.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-accent text-primary min-h-[50vh] relative">
+    <footer className="bg-background text-text min-h-[50vh] relative">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="flex flex-col sm:flex-row justify-between gap-5">
           <div className="flex flex-col justify-center items-center gap-3 w-full sm:w-1/4 ">
@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center w-full pb-4 text-center text-sm text-secondary bottom-0 absolute">
+      <div className="flex justify-center w-full pb-4 text-center text-sm text-primary bottom-0 absolute">
         <p>© 2024 Copyright: Zona Vip Barbershop</p>
       </div>
     </footer>
