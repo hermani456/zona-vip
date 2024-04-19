@@ -17,56 +17,39 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl">Navegación</h3>
             <ul className="font-palanquin">
-              <a href="/">
+              <a href="#home">
                 <li>Inicio</li>
               </a>
               <a href="/#servicios">
                 <li>Servicios</li>
-              </a>
-              <a href="/#equipo">
-                <li>Equipo</li>
-              </a>
-              <a href="/#contacto">
-                <li>Contacto</li>
               </a>
             </ul>
           </div>
           <div>
             <h3 className="text-2xl">Servicios</h3>
             <ul className="font-palanquin">
-              <a href="hospedaje">
-                <li>Hospedaje</li>
+              <a href="Corte1">
+                <li>Corte1</li>
               </a>
-              <a href="alimentacion">
-                <li>Alimentación</li>
+              <a href="corte2">
+                <li>corte2</li>
               </a>
-              <a href="transporte">
-                <li>Transporte</li>
-              </a>
-              <a href="aseo">
-                <li>Aseo y Limpieza</li>
-              </a>
-              <a href="seguridad">
-                <li>Seguridad</li>
-              </a>
-              <a href="fumigacion">
-                <li>Fumigación</li>
+              <a href="corte3">
+                <li>corte3</li>
               </a>
             </ul>
           </div>
           <div>
             <h3 className="text-2xl">Contacto</h3>
             <ul className="font-palanquin">
-              <li className="flex items-center gap-2">+56995273144</li>
+              {/* <li className="flex items-center gap-2">+56995273144</li> */}
               <li className="flex items-center gap-2">
-                <a href="mailto:ventas@servicioswillka.cl">
+                {/* <a href="mailto:ventas@servicioswillka.cl">
                   {" "}
                   ventas@servicioswillka.cl
-                </a>
+                </a> */}
               </li>
-              <li className="flex items-center gap-2">
-                Aldunate 215, Pozo Almonte
-              </li>
+              <li className="flex items-center gap-2">Pozo Almonte</li>
             </ul>
           </div>
         </div>

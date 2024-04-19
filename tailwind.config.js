@@ -12,6 +12,8 @@ export default {
         "primary": "#e69005",
         "secondary": "#d82246",
         "accent": "#ef253c",
+        "primary-dark": "#3a250d",
+        "secondary-dark": "#230c14",
       },
       fontFamily: {
         robotoSlab: ["Roboto Slab", "serif"],

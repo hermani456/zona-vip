@@ -43,10 +43,11 @@ p{
 }
 
 .card-shadow{
-    /* use this color for shadow cc4e5e */
-    box-shadow: -1rem -1rem 0 0 rgb(210, 111, 123)
+    box-shadow: -1rem -1rem 0 0 rgb(216, 34, 70)
 }
 
 .card-shadow:nth-child(2n){
-    box-shadow: -1rem -1rem 0 0 rgb(75, 78, 112)
+    box-shadow: -1rem -1rem 0 0 rgb(230, 144, 5)
 }
+
+

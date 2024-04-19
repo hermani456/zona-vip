@@ -13,11 +13,7 @@ const Navbar = () => {
           href="https://www.zona-vip.cl/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img
-            src={logo}
-            className="h-10 w-20"
-            alt="Zona Vip Logo"
-          />
+          <img src={logo} className="h-10 w-20" alt="Zona Vip Logo" />
           {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             Zona Vip
           </span> */}
@@ -60,7 +56,15 @@ const Navbar = () => {
                 className="block py-2 px-3 text-text rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-secondary md:border-0 md:p-0 "
                 aria-current="page"
               >
-                Home
+                Inicio
+              </a>
+            </li>
+            <li>
+              <a
+                href="#servicios"
+                className="block py-2 px-3 text-text rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-secondary md:border-0 md:p-0 "
+              >
+                Servicios
               </a>
             </li>
             <li>
@@ -68,7 +72,7 @@ const Navbar = () => {
                 href="#"
                 className="block py-2 px-3 text-text rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-secondary md:border-0 md:p-0 "
               >
-                About
+                TBD
               </a>
             </li>
             <li>
@@ -76,23 +80,7 @@ const Navbar = () => {
                 href="#"
                 className="block py-2 px-3 text-text rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-secondary md:border-0 md:p-0 "
               >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-text rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-secondary md:border-0 md:p-0 "
-              >
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-text rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-secondary md:border-0 md:p-0 "
-              >
-                Contact
+                TBD
               </a>
             </li>
           </ul>

@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/logos/mainlogo.svg";
-import Logo from "../svg-components/Logo"
 
 const Hero = () => {
   return (
