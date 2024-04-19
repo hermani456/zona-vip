@@ -1,14 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo-white.png";
+// import logo from "../assets/logo-white.png";
 import logo2 from "../assets/logo2.svg";
+import logo from "../assets/logos/logo.svg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   return (
     <nav className="border-gray-200">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
         <a
           href="https://www.zona-vip.cl/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
