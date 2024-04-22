@@ -10,13 +10,13 @@ const Footer = () => {
               <img src={logo} alt="logo zona vip" width={90} height={90} />
               <h3 className="text-2xl text-center">Zona Vip BarberShop</h3>
             </div>
-            <p className="font-palanquin text-center">
+            <p className=" text-center text-primary">
               Refina tu estilo, vive la experiencia VIP.
             </p>
           </div>
           <div>
             <h3 className="text-2xl">Navegación</h3>
-            <ul className="font-palanquin">
+            <ul className="">
               <a href="#home">
                 <li>Inicio</li>
               </a>
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-2xl">Servicios</h3>
-            <ul className="font-palanquin">
+            <ul className="">
               <a href="Corte1">
                 <li>Corte1</li>
               </a>
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-2xl">Contacto</h3>
-            <ul className="font-palanquin">
+            <ul className="">
               {/* <li className="flex items-center gap-2">+56995273144</li> */}
               <li className="flex items-center gap-2">
                 {/* <a href="mailto:ventas@servicioswillka.cl">
@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center w-full pb-4 text-center text-sm text-primary bottom-0 absolute">
+      <div className="flex justify-center w-full pb-4 text-center text-sm text-secondary bottom-0 absolute">
         <p>© 2024 Copyright: Zona Vip Barbershop</p>
       </div>
     </footer>

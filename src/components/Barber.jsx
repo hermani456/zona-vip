@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../assets/photo.webp";
+import photo from "../assets/images/photo.webp";
 
 const Barber = () => {
   return (
