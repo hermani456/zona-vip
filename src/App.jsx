@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import MovingText from "./components/MovingText";
 import CardSection from "./components/CardSection";
 import Footer from "./components/Footer";
+import Barber from "./components/Barber";
 
 function App() {
   const imgs = document.querySelectorAll("img");
@@ -25,6 +26,7 @@ function App() {
       <Hero />
       <MovingText />
       <CardSection />
+      <Barber />
       <Footer />
     </>
   );
