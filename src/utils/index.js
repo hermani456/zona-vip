@@ -1,4 +1,5 @@
 import { hair, angrybeard, bearcopete } from "../assets/svg/index"
+import { photoReview1, photoReview2, photoReview3 } from "../assets/images/users/index"
 
 export const cardInfo = [
   {
@@ -25,4 +26,25 @@ export const cardInfo = [
     price: "20.000",
     bgColor: "bg-secondary-dark",
   },
+];
+
+export const reviews = [
+  {
+    id: 1,
+    name: "Juan Pérez",
+    img: photoReview1,
+    comment: '"Excelente atención y servicio. Los barberos son muy profesionales y amables. ¡Volveré pronto!"',
+  },
+  {
+    id: 2,
+    name: "Pedro Sánchez",
+    img: photoReview2,
+    comment: '"Muy buenos cortes y precios accesibles. El ambiente es muy agradable y acogedor. ¡Muy recomendado!"',
+  },
+  {
+    id: 3,
+    name: "Carlos González",
+    img: photoReview3,
+    comment: '"¡La mejor barbería de la ciudad! Los barberos son muy talentosos y siempre me dejan satisfecho con el resultado."',
+  }
 ];

@@ -6,7 +6,7 @@ const Barber = () => {
     <section className="max-w-screen-xl mx-auto p-5">
       <div className="flex flex-wrap lg:flex-nowrap gap-5">
         <div className="text-text flex flex-col gap-5">
-          <h2 className="text-5xl text-primary font-bebasNeue border-b-2 border-secondary">Confianos tu look</h2>
+          <h2 className="text-5xl text-primary font-bebasNeue border-b-2 border-secondary">Confíanos tu look</h2>
           <p className="leading-relaxed tracking-wide">
             Nuestro equipo de barberos expertos no solo sigue las últimas
             tendencias y técnicas en el mundo de la barbería, sino que también

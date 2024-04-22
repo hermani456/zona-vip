@@ -66,22 +66,14 @@ const Navbar = () => {
                 Servicios
               </a>
             </li>
-            {/* <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-text rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-secondary md:border-0 md:p-0 "
-              >
-                TBD
-              </a>
-            </li>
             <li>
               <a
-                href="#"
+                href="#testimonios"
                 className="block py-2 px-3 text-text rounded hover:bg-gray-500 md:hover:bg-transparent md:hover:text-secondary md:border-0 md:p-0 "
               >
-                TBD
+                Testimonios
               </a>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>

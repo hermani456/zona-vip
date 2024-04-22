@@ -19,6 +19,7 @@ body{
     font-family: "Roboto Slab", sans-serif;
     line-height: 1.5;
     background-color: #0f0a0f;
+    font-weight: 400;
 }
 
 img, svg, video{

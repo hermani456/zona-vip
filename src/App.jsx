@@ -5,6 +5,7 @@ import CardSection from "./components/CardSection";
 import Footer from "./components/Footer";
 import Barber from "./components/Barber";
 import { useEffect } from "react";
+import Ratings from "./components/Ratings";
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
       <MovingText />
       <CardSection />
       <Barber />
+      <Ratings />
       <Footer />
     </>
   );
