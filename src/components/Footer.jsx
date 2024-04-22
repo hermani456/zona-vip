@@ -23,9 +23,12 @@ const Footer = () => {
               <a href="/#servicios">
                 <li>Servicios</li>
               </a>
+              <a href="/#testimonios">
+                <li>Testimonios</li>
+              </a>
             </ul>
           </div>
-          <div>
+          {/* <div>
             <h3 className="text-2xl">Servicios</h3>
             <ul className="">
               <a href="Corte1">
@@ -38,7 +41,7 @@ const Footer = () => {
                 <li>corte3</li>
               </a>
             </ul>
-          </div>
+          </div> */}
           <div>
             <h3 className="text-2xl">Contacto</h3>
             <ul className="">
