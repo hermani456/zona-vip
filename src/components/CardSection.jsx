@@ -4,7 +4,7 @@ import { cardInfo } from "../utils/index";
 
 const CardSection = () => {
   return (
-    <div id="servicios" className="bg-background mt-5">
+    <section id="servicios" className="bg-background mt-5">
       <div className="max-w-screen-xl mx-auto min-h-[70vh] grida p-5">
         {cardInfo.map((card) => (
           <Card
@@ -17,7 +17,7 @@ const CardSection = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
