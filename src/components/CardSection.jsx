@@ -4,8 +4,9 @@ import { cardInfo } from "../utils/index";
 
 const CardSection = () => {
   return (
-    <section id="servicios" className="bg-background mt-5">
-      <div className="max-w-screen-xl mx-auto min-h-[70vh] grida p-5">
+    <section id="servicios" className="bg-background max-w-screen-xl mx-auto my-20">
+      <div className="flex flex-wrap justify-center gap-4">
+      {/* <div className="max-w-screen-xl mx-auto min-h-[70vh] grida p-5"> */}
         {cardInfo.map((card) => (
           <Card
             key={card.id}
